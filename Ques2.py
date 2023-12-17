@@ -1,6 +1,6 @@
 # Q2 Write a program to reverse an array or string
-
 # Function to reverse A[] from start to end
+
 def reverseList(A, start, end):
 	while start < end:
 		A[start], A[end] = A[end], A[start]
